@@ -1,26 +1,19 @@
-# Web Framework
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 python-multipart>=0.0.6
 
-# Data Analytics (Upgraded for Python 3.13 pre-built wheels)
 pandas>=2.3.0
 numpy>=1.26.3
 
-# AI/LLM
 groq>=0.4.0
 
-# Visualization
 plotly>=5.18.0
 
-# Configuration (Upgraded to fix Python 3.13 build errors)
 python-dotenv>=1.0.0
 pydantic>=2.10.0
 pydantic-settings>=2.6.0
 
-# UI
 streamlit>=1.31.0
 
-# Testing
 pytest>=7.4.4
 pytest-asyncio>=0.23.3
