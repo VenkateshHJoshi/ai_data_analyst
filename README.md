@@ -1,6 +1,6 @@
 # 🤖 AI Data Analyst
 
-[![Streamlit Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-url.streamlit.app/)
+[![Streamlit Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-data-analyst01.streamlit.app/)
 [![Groq Cloud](https://img.shields.io/badge/Powered%20by-Groq%20Cloud-f55036?style=for-the-badge)](https://console.groq.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 
