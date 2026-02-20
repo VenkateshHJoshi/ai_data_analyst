@@ -1,8 +1,12 @@
 # 🤖 AI Data Analyst
 
+[![Streamlit Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-url.streamlit.app/)
+[![Groq Cloud](https://img.shields.io/badge/Powered%20by-Groq%20Cloud-f55036?style=for-the-badge)](https://console.groq.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+
 AI Data Analyst is a full-stack, intelligent data analysis tool that allows users to upload CSV datasets and ask natural language questions to gain instant insights. 
 
-Powered by **Groq**, **FastAPI**, **Streamlit**, and **Pandas**, this application translates plain English into executable Python code, runs it safely, and returns rich statistical insights alongside interactive Plotly visualizations.
+This application translates plain English into executable Python code, runs it safely, and returns rich statistical insights alongside interactive Plotly visualizations.
 
 ---
 
