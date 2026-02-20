@@ -21,7 +21,7 @@ def ingest_file(file_content: bytes, filename: str) -> DatasetContext:
     
     try:
         # 1. Validate File Size
-        size_mb = len(file_content) / (1024 * 1024)
+        size_mb = len(file_content) / (100 * 1024 * 1024)
         if size_mb > settings.MAX_UPLOAD_SIZE_MB:
             raise FileProcessingError(f"File exceeds {settings.MAX_UPLOAD_SIZE_MB}MB limit.")
 
