@@ -5,14 +5,16 @@ import pandas as pd
 import json
 import re
 
+
+from dotenv import load_dotenv
+load_dotenv()
+
 # --- PATH SETUP ---
 current_file_path = os.path.abspath(__file__)
 project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(current_file_path))))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from dotenv import load_dotenv
-load_dotenv()
 
 from src.ai_analyst.core.ingestion import ingest_file
 from src.ai_analyst.core.query_understanding import generate_code, regenerate_code_with_error
